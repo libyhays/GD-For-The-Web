@@ -5,9 +5,23 @@
 another
 </title>
 <meta charset="utf-8">
+<SCRIPT LANGUAGE="javascript" SRC="javascript/JSFX_Layer.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="javascript/JSFX_Browser.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="javascript/JSFX_Falling.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" TYPE="text/javascript"> 
+<!--
+function JSFX_StartEffects()
+{ 
+      JSFX.Falling(40,"<img src='javascript/clown.gif'>", 60);
+      JSFX.Falling(40,"<img src='javascript/hit.gif'>", 60);
+} 
+//-->
+</SCRIPT>
+<!-- *** END CUT - End Code *** -->
 <style>a,body{color:#222}body{font:18px "Helvetica Neue",Helvetica,Arial,sans-serif}#passage{max-width:38em;margin:0 auto;line-height:145%}a{text-decoration:none;border-bottom:2px solid #bbb}a:hover{color:#cc8929;border-color:#cc8929}a:active{color:#ffb040;border-color:#ffb040}tw-storydata{display:none}@media screen and (max-device-width:480px){#passage{font-size:70%}}</style>
 </head>
 <body>
+<BODY onLoad="JSFX_StartEffects()">
 <div id="passage"></div>
 
 <tw-storydata name="another" startnode="1" creator="Twine" creator-version="2.2.1" ifid="66F355EA-E3E4-4580-A00C-9B7E84F25D80" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">a{border-bottom: none}
